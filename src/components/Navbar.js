@@ -1,4 +1,5 @@
 import React from "react";
+import Pdf from "../Sohan_Bandary_Resume.pdf";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faBars } from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {
@@ -44,10 +45,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="https://drive.google.com/file/d/1rRLXVpY16PCZn76rTsSKg-g0zqvR6-CC/view?usp=sharing"
-                >
+                <a className="nav-link" href={Pdf}>
                   Resume
                 </a>
               </li>
